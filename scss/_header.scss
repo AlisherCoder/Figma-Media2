@@ -1,6 +1,6 @@
 .header {
-   border: 1px solid;
    max-height: 88px;
+   padding: 24px 0;
    &__navbar {
       border: 1px solid;
       display: flex;
@@ -10,7 +10,6 @@
    }
 
    &__left {
-      border: 1px solid;
       width: 281px;
       height: 48px;
       display: flex;
@@ -34,5 +33,26 @@
    &__options select {
       padding-left: 40px;
       color: $bg-third;
+   }
+
+   &__right {
+      border: 1px solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      button {
+         color: $bg-secondary;
+         font-size: 14px;
+         font-weight: 700;
+         padding: 12px 16px;
+         border-radius: 90px;
+      }
+      .lang {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 12px;
+      }
    }
 }
