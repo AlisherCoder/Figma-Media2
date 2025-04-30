@@ -1,0 +1,38 @@
+.header {
+   border: 1px solid;
+   max-height: 88px;
+   &__navbar {
+      border: 1px solid;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__left {
+      border: 1px solid;
+      width: 281px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+   }
+
+   &__logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 9px;
+      padding-right: 40px;
+      border-right: 1px solid #e6e8ec;
+      h3 {
+         font-size: 27px;
+         font-weight: 600;
+         color: $bg-secondary;
+      }
+   }
+
+   &__options select {
+      padding-left: 40px;
+      color: $bg-third;
+   }
+}
